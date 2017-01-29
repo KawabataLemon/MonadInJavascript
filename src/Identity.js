@@ -1,4 +1,6 @@
+// 恒等モナド
 class Identity {
+
   constructor(val) {
     this.val = val
   }
@@ -6,6 +8,7 @@ class Identity {
   chain(f) {
     return f(this.val)
   }
+
   static value(val) {
     return new Identity(val)
   }

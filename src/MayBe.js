@@ -1,5 +1,6 @@
 // Maybeモナド
 class MayBe {
+
   constructor(type, value) {
     this.type = type
     this.value = value
