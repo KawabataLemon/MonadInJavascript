@@ -1,0 +1,23 @@
+{
+  "name": "MonadInJavascript",
+  "version": "1.0.0",
+  "description": "monad in javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KawabataLemon/MonadInJavascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KawabataLemon/MonadInJavascript/issues"
+  },
+  "homepage": "https://github.com/KawabataLemon/MonadInJavascript#readme",
+  "dependencies": {
+    "expect.js": "^0.3.1"
+  }
+}
