@@ -11,3 +11,9 @@ monad in javascript
 
 ## Identifyモナド
 ### 純粋な機能を持たないモナドです。恒等モナドと呼ばれるものです
+
+```
+npm install
+node test.js
+
+```
