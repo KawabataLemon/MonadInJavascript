@@ -24,7 +24,7 @@ var caller = {
   }
 }
 const test = new FuncTest()
-caller.callback = test.getLexicalFunction
+caller.callback = test.getLexicalFunction()
 caller.call() // 確かに定義時のthisのまま
-caller.callback = test.contextualFunction
+caller.callback = test.getContextualFunction()
 caller.call() // 定義の仕方で中身が違う
